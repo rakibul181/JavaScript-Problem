@@ -24,6 +24,24 @@ function WoodCalculator(chair,table,khat) {
 WoodCalculator(2,3,4)
 
 //                     Porblem------4
+function BrickCalculatar(floor) {
+    if(floor<=10){
+        Brick = floor*15*1000
+    }
+    else if(floor<=20){
+        Up10 = floor%10
+        Brick = 10*15*100 + Up10*12*1000
+    }
+    else  (floor>20);{
+        Up20 = floor - 20
+        Brick = 10*15*100 + 10*12*1000 + Up20 *10*1000
+    }
+
+    console.log(`Brics Lagbe ${Brick} ta`)
+
+}
+
+BrickCalculatar(20)
 
 //                     Porblem------5
 
