@@ -24,6 +24,7 @@ function WoodCalculator(chair,table,khat) {
 WoodCalculator(2,3,4)
 
 //                     Porblem------4
+
 function BrickCalculatar(floor) {
     if(floor<=10){
         Brick = floor*15*1000
